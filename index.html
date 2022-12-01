@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maquetación Modal</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script
+      src="https://kit.fontawesome.com/5f3c62802e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor_arriba">
+        <figure>
+          <img src="imagenes/logo.jpg" alt="logo" />
+        </figure>
+      </div>
+    </header>
+    <section class="contenedor_info">
+      <article class="caja_blanca">
+        <div class="titulos">
+          <p class="ourteam">Our Team</p>
+          <h2>A Dedicated Team of Experts</h2>
+          <br />
+          <p class="parrafo_lite">
+            Passion,experience and a fierce commitment to education are the
+            cornerstones of our success in the beauty industry
+          </p>
+          <br />
+          <p class="parrafo">
+            We believe that being the largest SPA in the area is not enough in
+            itselft to satisfy the needs of our customers. For this reason we
+            have built up a staff of specialized professionals who are pround to
+            welcome you to our hotel, present What We Do, listen to your needs
+            and guarantee well-being and relaxion during your stay at our SPA
+            Resort.
+          </p>
+          <br />
+          <p class="parrafo">
+            Everyone in our team is a certifed specialist capable of delivering
+            a unique service of high quality you won't find anywhere else in
+            modern spa and resort industry.
+          </p>
+          <br />
+          <div class="botones">
+              <a href="#" class="btn_salmon" id="Btn">LEARN MORE</a>
+              <a href="#" class="btn_borde">VIEW ALL TEAM</a>
+            </div>
+          </div>
+      </article>
+
+      <!-- Código parte gris -->
+      <article class="caja_gris">
+        <div class="foto">
+          <figure>
+            <img src="imagenes/foto1.jpg" alt="foto1" />
+          </figure>
+          <div class="nombres">
+            <h3>Jessica Cooper</h3>
+            <p class="parrafo">Esthetician</p>
+          </div>
+
+          <div class="cajalogos">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+          <a class="btn_salmon2" href="#" id="Btn">GET IN TOUCH</a>
+        </div>
+        <div class="foto">
+          <figure>
+            <img src="imagenes/foto2.jpg" alt="" />
+          </figure>
+          <div class="nombres">
+            <h3>Robert Wagner</h3>
+            <p class="parrafo">Hairdresser</p>
+          </div>
+          <div class="cajalogos">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+          </div>
+          <a class="btn_salmon2" href="#" id="Btn">GET IN TOUCH</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Código para el modal -->
+    <section id="modal" class="fondomodal">
+      <div class="contenidomodal">
+        <div class="estructuramodal">
+          <h1>Contact Us</h1>
+          <i id="cerrarbtn" class="cerrarmodal fa-solid fa-xmark"></i>
+        </div>
+        <p class="parrafo_lite">
+          if you have any questions concerning our services, please fill out the
+          contact form below
+        </p>
+        <br />
+        <form action="#" class="formulario">
+          <input type="text" name="" id="" placeholder="Name*" />
+          <input type="email" name="" id="" placeholder="E-mail*" />
+          <textarea class="textarea" placeholder="Message*"></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </section>
+    <br><br>
+
+  </body>
+  <script src="funciones.js"></script>
+</html>
